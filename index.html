@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Perini Michelino</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="assets/logo.png" alt="Logo" class="logo" />
+    <h1 class="title">Perini Michelino</h1>
+  </header>
+
+  <section class="intro">
+    <p>Consulenza in logistica e trasporti. Ottimizza i tuoi flussi, riduci i costi, migliora l'efficienza.</p>
+  </section>
+
+  <section class="calcolatore">
+    <h2>Calcolatore Costi Trasporto</h2>
+    <form>
+      <input type="text" placeholder="Località di ritiro" />
+      <input type="text" placeholder="Località di consegna" />
+      <input type="number" placeholder="Numero colli / pallet" />
+      <input type="number" placeholder="Peso totale (kg)" />
+      <input type="text" placeholder="Misure (es. 120x80x150 cm)" />
+      <select>
+        <option selected disabled>Sovrapponibili?</option>
+        <option>Sì</option>
+        <option>No</option>
+      </select>
+      <button type="submit">Calcola</button>
+    </form>
+  </section>
+
+  <section class="galleria">
+    <h2>Settori di Competenza</h2>
+    <div class="gallery">
+      <img src="assets/img1.jpg" alt="Logistica">
+      <img src="assets/img2.jpg" alt="Trasporti">
+      <img src="assets/img3.jpg" alt="Consulenza">
+      <img src="assets/img4.jpg" alt="Gestione Spazi">
+    </div>
+  </section>
+
+  <section class="contatto">
+    <h2>Richiedi informazioni</h2>
+    <form action="https://formsubmit.co/perini.michelino@gmail.com" method="POST">
+      <input type="text" name="nome" placeholder="Il tuo nome" required />
+      <input type="email" name="email" placeholder="La tua email" required />
+      <textarea name="messaggio" placeholder="Scrivi qui la tua richiesta" required></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </section>
+</body>
+</html>
